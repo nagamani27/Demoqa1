@@ -1,7 +1,7 @@
 @Demoqa
 Feature: Count no.of textbox,checkbox,Radio button,dropdown
 
-@textbox
+@textbox 
 Scenario Outline:
 Given The user on Demoqa website
 When The user pass data to textboxes "<fname>" "<lname>" "<phno>" "<uname>"  "<mail>" "<pwd>" "<cpwd>" "<des>"
